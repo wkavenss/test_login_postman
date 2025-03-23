@@ -1,0 +1,33 @@
+{
+	"id": "65b22811-4950-4e46-8ec9-4f1a387af3ae",
+	"values": [
+		{
+			"key": "Password",
+			"value": "1234@Test",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "MsgFullNameRequired",
+			"value": "O campo 'fullName' é obrigatório.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgMailRequired",
+			"value": "O e-mail informado está inválido",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgAccessProfile",
+			"value": "O campo 'accessProfile' é obrigatório.",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-03-23T00:55:28.402Z",
+	"_postman_exported_using": "Postman/11.36.6"
+}
