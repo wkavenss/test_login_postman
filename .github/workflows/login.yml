@@ -33,6 +33,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Step 2 Install Newman-Reporter-Htlmextra
         run: sudo npm install -g newman-reporter-htmlextra
+
+        - name: Criar a pasta result se não existir
+        run: mkdir -p ./result
         
         # Runs a set of commands using the runners shell
       - name: Step 3 Execute collection
